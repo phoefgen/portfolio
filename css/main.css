@@ -1,0 +1,116 @@
+.container {
+    max-width: 800px;
+}
+
+.logo {
+    font-size: 100px;
+}
+
+.projects .img-responsive {
+    height: 100px;
+}
+
+.header_text h3 {
+    text-align: right;
+}
+
+.hero_image img {
+    max-height: auto;
+    max-width: 800px;
+}
+
+.featured_projects h3 {
+    padding-left: 10px;
+}
+
+body {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+a:link {
+    color: black;
+}
+
+hr {
+    border-width: 3px;
+    border-color: red;
+}
+
+h5 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+h3 {
+    height: 100%;
+    padding-left: 2px;
+}
+
+h1 {
+    font-size: 300%;
+}
+
+p {
+    text-align: center;
+}
+
+.footer_text {
+    text-align: center;
+}
+
+.row {
+    padding: 0;
+}
+
+
+/* Accomodations for phones */
+
+@media screen and (max-width:420px) {
+    .container {
+        max-width: 400px;
+    }
+    .logo {
+        font-size: 30px;
+    }
+    .footer_text {
+        text-align: center;
+        max-width: 100%;
+    }
+}
+
+
+/* Accomodation for tablets */
+
+@media screen and (max-width:800px) {
+    /* set a max-width for horizontal fluid layout and make it centered */
+    .container-fluid {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 800px;
+        /* or 950px */
+    }
+    .logo {
+        font-size: 50px;
+    }
+    .hero_image img {
+        max-height: auto;
+        max-width: 100%;
+    }
+    h1 {
+        font-size: 200%;
+    }
+    h3 {
+        text-align: center;
+        font-size: 100%
+    }
+    hr {
+        border-width: 1px;
+    }
+    .projects .img-responsive {
+        width: 25%;
+        height: auto;
+    }
+}
