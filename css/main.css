@@ -10,11 +10,11 @@
     height: 100px;
 }
 
-.header_text h3 {
+.header_text {
     text-align: right;
 }
 
-.hero_image img {
+.hero-image img {
     max-height: auto;
     max-width: 800px;
 }
@@ -24,7 +24,7 @@
 }
 
 body {
-    font-family: 'Rajdhani', sans-serif;
+    font-family: "Rajdhani", sans-serif;
     overflow-x: hidden
 }
 
@@ -92,7 +92,7 @@ p {
     .logo {
         font-size: 50px;
     }
-    .hero_image img {
+    .hero-image img {
         max-height: auto;
         max-width: 100%;
     }
